@@ -16,7 +16,7 @@ function App() {
     <>
 
       <Nav />
-      <div className="container mt-4">
+      <div className=" mt-0">
       <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<About />} />
